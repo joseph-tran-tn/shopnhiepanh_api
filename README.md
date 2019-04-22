@@ -1,16 +1,16 @@
 # shopnhiepanh_api
 
-https://shopnhiepanh.vn/api/
+https://shopnhiepanh.vn/api/<ACTION>
 key = xxx
 ======================================
 
-## action = user_login
+## ACTION = user_login
 --------------------
 PhoneNumber
 Password
 
 ======================================
-## action = user_signup
+## ACTION = user_signup
 --------------------
 UserName
 PhoneNumber
@@ -21,4 +21,4 @@ LastName
 DeviceId
 Notification
 
-EX: https://shopnhiepanh.vn/api/?key=key&action=user_login&PhoneNumber=test001&Password=test001
+EX: https://shopnhiepanh.vn/api/user_login/
